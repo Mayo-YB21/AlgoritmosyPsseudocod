@@ -1,0 +1,22 @@
+Algoritmo conoserelsx
+	//Algoritmo para definir tu sexo
+	Definir sexo Como Caracter
+	Escribir "Ingrese letra H - M :";
+	Leer Sexo 
+	
+	Sexo <-Mayusculas(sexo);
+	
+	Si (Sexo = "H") Entonces
+		Escribir "Tu sexo es Masculino" 
+	SiNo
+		si (Sexo == "M") Entonces
+			Escribir "Tu sexo es Femenino"  
+		Sino 
+			Escribir "Por favor ingrese los sexo disponibles" 
+		FinSi
+		
+	Fin Si
+	
+	
+	
+FinAlgoritmo
